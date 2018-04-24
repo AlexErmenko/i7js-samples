@@ -5,12 +5,11 @@
     <parent>
         <groupId>com.itextpdf</groupId>
         <artifactId>root</artifactId>
-        <version>7.0.2-SNAPSHOT</version>
+        <version>7.0.8-SNAPSHOT</version>
         <relativePath />
     </parent>
 
     <artifactId>examples</artifactId>
-    <version>7.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>iText 7 Examples</name>
@@ -22,12 +21,12 @@
     </modules>
 
     <properties>
-        <itext.version>7.0.2-SNAPSHOT</itext.version>
-        <itext.legacy.version>5.5.9</itext.legacy.version>
-        <cleanup.version>1.0.2-SNAPSHOT</cleanup.version>
-        <typography.version>1.0.2-SNAPSHOT</typography.version>
-        <zugferd.version>1.0.2-SNAPSHOT</zugferd.version>
-        <licensekey.version>2.0.3-SNAPSHOT</licensekey.version>
+        <itext.version>${project.parent.version}</itext.version>
+        <itext.legacy.version>5.5.13</itext.legacy.version>
+        <cleanup.version>1.1.2-SNAPSHOT</cleanup.version>
+        <typography.version>1.0.4-SNAPSHOT</typography.version>
+        <zugferd.version>1.0.3-SNAPSHOT</zugferd.version>
+        <licensekey.version>3.0.2</licensekey.version>
         <bouncycastle.version>1.49</bouncycastle.version>
         <assertj.version>2.3.0</assertj.version>
         <checkstyle.version>2.15</checkstyle.version>
